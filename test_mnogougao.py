@@ -1,7 +1,7 @@
 from mnogougao import *
 import pytest 
  
-@pytest.mark.parametrize("a", np.linspace(-10, 10, 21))
+@pytest.mark.parametrize("a", np.linspace(-10, 20, 21))
 def test_kvadrat(a):
     try:
         k = Kvadrat(a)
